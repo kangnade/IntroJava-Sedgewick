@@ -26,8 +26,6 @@ public class Stats {
         + ", and the standard deviation is: " + statsStdDev(doubleInput) +".");
         System.out.print("The values that are 1.5 standard deviation away from the mean are: ");
         System.out.println(filter(doubleInput));
-
-
     }
 
     /**
@@ -90,8 +88,6 @@ public class Stats {
         ArrayList<Double> results = new ArrayList<Double>();
         double stdDev =  statsStdDev(input);
         double stdAverage = statsAverage(input);
-
-
 
         for(int i = 0; i < input.size(); i++){
             // standardize the inputs into z-scores
