@@ -16,6 +16,7 @@ public class LongestRun {
             if(count == 0){
                 previous = current;
                 count = 1;
+                System.out.print("Enter an integer, Q to quit: ");
             }else{
                 if(current == previous){
                     count++;
