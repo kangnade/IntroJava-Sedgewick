@@ -1,5 +1,7 @@
 import java.util.*;
 
+// This is the solution to Java Sedgewick exercise 1.5.5
+
 public class LongestRun {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
